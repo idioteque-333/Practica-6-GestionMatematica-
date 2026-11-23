@@ -81,8 +81,7 @@ if Opcion == 1:
 			plt.show()
 		else:
 			print ("Eliga una Opción Válida")
-		C = input("¿Desea continuar viendo otra figura? (S / N) ")
-		S = C
+		S = input("¿Desea continuar viendo otra figura? (S / N) ")
 elif Opcion == 2:
 	S = "S"
 	while S == "S":
@@ -132,8 +131,7 @@ elif Opcion == 2:
 			plt.show()
 		else:
 			print ("Eliga una Opcion Valida")
-		C = input("Quiere imprimir otra grafica? (S / N) ")
-		S = C
+		S = input("Quiere imprimir otra grafica? (S / N) ")
 elif Opcion == 3:
 	S = "S"
 	while S == "S":
@@ -154,5 +152,4 @@ elif Opcion == 3:
 				t.end_fill()
 		else:
 			print ("Eliga Una Opcion Valida")
-		C = input("Desea ilustrar otra figura (S / N)")
-		S = C
+		S = input("Desea ilustrar otra figura (S / N)")
