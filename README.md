@@ -1,1 +1,3 @@
-# Practica-6-GestionMatematica-
+#Practica_Matplotlib_Python
+
+Adiós Justin
