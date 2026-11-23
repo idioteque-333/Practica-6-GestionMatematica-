@@ -85,10 +85,10 @@ if Opcion == 1:
 elif Opcion == 2:
 	S = "S"
 	while S == "S":
-		print ("Gráfica de Barras")
-		print ("Gráfica de Ondas")
-		print ("Gráfica de Pastel")
-		print ("Gráfica Continua (Investigada)")
+		print ("1.- Gráfica de Barras")
+		print ("2.- Gráfica de Ondas")
+		print ("3.- Gráfica de Pastel")
+		print ("4.- Gráfica Continua (Investigada)")
 		Opcion = int(input("Ingrese el número correspondiente (1-4) "))
 		if Opcion == 1:
 			categorias = ['Manzanas', 'Plátanos', 'Cerezas', 'Dátiles']
@@ -152,4 +152,4 @@ elif Opcion == 3:
 				t.end_fill()
 		else:
 			print ("Eliga Una Opcion Valida")
-		S = input("Desea ilustrar otra figura (S / N)")
+		S = input("Desea ilustrar otra figura (S / N) ")
